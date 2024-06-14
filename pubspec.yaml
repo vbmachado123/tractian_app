@@ -1,0 +1,42 @@
+name: tractian_app
+description: "A POC App to Tractian."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_modular: 3.2.0
+  mobx: ^2.1.3
+  flutter_mobx: ^2.0.6+5
+  cupertino_icons: ^1.0.6
+  package_info_plus: ^5.0.1
+  dson_adapter: ^1.2.0+2
+  mockito: ^5.4.4
+  dio: ^4.0.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: 
+  flutter_lints: ^3.0.0
+  mobx_codegen: ^2.1.1
+  flutter_launcher_icons: ^0.13.1
+  # analyzer: ^6.5.0
+
+  # modular_test: ^3.0.1
+
+flutter:
+
+  assets:
+    - assets/
+
+  uses-material-design: true
+   
